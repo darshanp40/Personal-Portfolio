@@ -1,0 +1,134 @@
+body {
+  font-family: "Exo 2", sans-serif;
+}
+
+.nopadding {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.padding-50 {
+  padding: 50px;
+}
+
+.extralight-font {
+  font-weight: 200;
+}
+
+.light-font {
+  font-weight: 200;
+}
+
+.bg-light {
+  background: #efefef !important;
+}
+.bg-indigo  {
+  background: #9b59b6 !important;
+  color: #fff;
+}
+.bg-ligthblue {
+  background: #3498db !important;
+  color: #fff;
+}
+
+.section-heading {
+  text-transform: uppercase;
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+  margin-left: 0;
+}
+
+.menuitem {
+  min-height: 120px;
+  text-align: center;
+}
+
+.ui-menu-color01 {
+  background-color: #1abc9c !important;
+}
+
+.ui-menu-color02 {
+  background-color: #3498db !important;
+}
+
+.ui-menu-color03 {
+  background-color: #9b59b6 !important;
+}
+
+.ui-menu-color04 {
+  background-color: #e67e22 !important;
+}
+
+.ui-menu-color05 {
+  background-color: #e74c3c !important;
+}
+
+.ui-menu-color06 {
+  background-color: #d9a81d;
+}
+
+.menuitem a {
+  width: 100%;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.menuitem a span {
+  display: block;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.menuitem a i {
+  padding-top: 30px;
+  font-size: 40px;
+  display: block;
+}
+
+.photo-01 {
+  background: url(/img/profile.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 360px;
+  filter: grayscale(100%);
+}
+
+.name-title,
+.name-subtitle {
+  padding: 17px 40px 18px 40px;
+  min-height: 120px;
+  max-height: 120px;
+  overflow: hidden;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.69);
+}
+
+.name-subtitle {
+  background-color: rgba(80, 80, 80, 0.91)
+}
+
+.details p {
+  font-size: 16px;
+}
+
+.details-text {
+  display: table-cell;
+}
+
+.details-label {
+  display: table-cell;
+  width: 110px;
+}
+
+.details {
+  display: table;
+  padding: 5px 0;
+}
