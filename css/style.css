@@ -93,7 +93,7 @@ ul {
 }
 
 .photo-01 {
-  background: url(/img/profile.jpg);
+  background: url(../img/profile.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
