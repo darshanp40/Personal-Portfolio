@@ -245,7 +245,7 @@ li.company a:before {
   color:#000;
 }
 
-@media screen and (min-width:991px) {
+@media screen and (min-width:992px) {
   .flex-md {
     display: flex;
   }
