@@ -6,7 +6,9 @@ body {
   padding: 0 !important;
   margin: 0 !important;
 }
-
+.no-left-padding {
+  padding-left: 0 !important;
+}
 .padding-50 {
   padding: 50px;
 }
@@ -188,6 +190,7 @@ li.position {
   display: block;
   line-height: 12px;
 }
+
 li.company a {
   color: #ffffff;
 }
@@ -218,5 +221,32 @@ li.company a:before {
   top: 7px;
   left: -29px;
   content: "";
+}
+
+.progress {
+  position: relative;
+  height: 25px;
+}
+
+.progress>.progress-type {
+  position: absolute;
+  left: 0px;
+  font-weight: 800;
+  padding: 3px 30px 2px 10px;
+  color: rgb(255, 255, 255);
+  background-color: rgba(25, 25, 25, 0.2);
+}
+
 .progress>.progress-completed {
+  position: absolute;
+  right: 0px;
+  font-weight: 800;
+  padding: 3px 10px 2px;
+  color:#000;
+}
+
+@media screen and (min-width:991px) {
+  .flex-md {
+    display: flex;
+  }
 }

@@ -54,6 +54,7 @@
         title: "Angular JS",
         percentage: "20",
         color: "#d9534f"
+    },
     {
         title: "MS SQL",
         percentage: "40",
