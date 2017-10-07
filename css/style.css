@@ -218,4 +218,5 @@ li.company a:before {
   top: 7px;
   left: -29px;
   content: "";
+.progress>.progress-completed {
 }
