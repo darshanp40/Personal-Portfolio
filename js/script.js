@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 (function () {
     const jobProfile = [{
             companyName: "MAQ Software PVT. LTD., Hyderabad",
