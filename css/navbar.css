@@ -1,0 +1,63 @@
+
+
+nav.navbar {
+    background: none;
+    transition: all .5s
+}
+
+.navbar-default .navbar-brand {
+    font-size: 24px;
+    font-weight: 200;
+    color: #fff;
+}
+.navbar-default .navbar-nav>li>a {
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.navbar-active .navbar-nav>li>a {
+    color: #333;
+}
+
+.navbar-brand span {
+    font-weight: 400;
+}
+nav.navbar.active {
+    background: #fff;
+}
+nav.navbar.active ul.nav li.active a {
+    color: #ff6b6b
+}
+
+nav.navbar.active ul.nav a {
+    color: #333;
+    text-shadow: none
+}
+
+nav.navbar.active ul.nav a:hover,
+nav.navbar.active ul.nav a:focus {
+    color: #ff6b6b
+}
+
+nav.navbar.active a.learn-more {
+    background: #ff6b6b;
+    border: 2px solid transparent
+}
+
+nav.navbar.active a.learn-more:hover {
+    background: #2b90d9;
+    color: #fff
+}
+
+nav.navbar.active .navbar-toggle {
+    color: #333
+}
+
+nav.navbar.active a.navbar-brand {
+    color: #333;
+}
+
+nav.navbar.active a.navbar-brand:hover,
+nav.navbar.active a.navbar-brand:focus {
+    color: #333;
+}
