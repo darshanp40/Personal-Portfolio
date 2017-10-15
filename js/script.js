@@ -15,7 +15,8 @@
             position: "Software Developer"
         }
     ];
-    const skillsProfile = [{
+    
+    const skillsProfile = [{   
         title: "HTML/HTML5",
         percentage: "70",
         color: "#d9534f"
