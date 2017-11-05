@@ -10,7 +10,7 @@
             position: "Software Engineer 2"
         },
         {
-            companyName: "Cashcare Technology PVT. LTD., Hyderabad",
+            companyName: "Cashcare Technology PVT. LTD., Mumbai",
             duration: "April, 2017 - Present",
             position: "Software Developer"
         }
